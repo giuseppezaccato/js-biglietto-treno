@@ -1,3 +1,4 @@
+//----------TASK 1----------
 //------RACCOLTA DATI DALL'UTENTE
 //  -km richiesti per il viaggio 
 //  -età del passeggero
@@ -9,6 +10,8 @@ const age = parseInt(prompt("scrivi qui l'età del passeggero", 35))
 const km = parseInt(prompt("aggiungi qui quanti km intendi percorrere per sapere quanto costerà il tuo biglietto", 120))
 let price = km * 0.21
 
+
+//----------TASK 2----------
 //-----SCONTO APPLICATO IN BASE A ETà PASSEGGERO
 // IF < 18 = sconto 20%
 // ELSE IF >= 65 = sconto 40%
